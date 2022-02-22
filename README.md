@@ -27,7 +27,7 @@ Stop
 ```
 #Develpoed By:Manoj Guna Sundar Tella
 #Reference No:21003796
-with open('first.txt','r') as firstfile, open('second.txt','a') as secondfile:
+with open('first.txt','r') as firstfile, open('second.txt','W') as secondfile:
     for line in firstfile:
              secondfile.write(line)
 ```
